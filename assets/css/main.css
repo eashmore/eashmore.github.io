@@ -2104,3 +2104,13 @@
 				}
 
 	}
+
+	.nav-name {
+		font-size: 25px;
+	}
+
+	ul.nav-menu {
+		position: relative;
+		left: 58%;
+		top: 8px;
+	}
