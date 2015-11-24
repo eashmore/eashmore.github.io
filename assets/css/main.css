@@ -1808,6 +1808,14 @@
 					.box.style1 h3 {
 						margin-bottom: 0.5em;
 					}
+				.box.style2 {
+					min-height: 510px;
+				}
+
+				.box.style2 img {
+					border: 2px solid gray;
+					border-radius: 3px;
+				}
 
 				.box.style2 h3 {
 					margin-bottom: 0.25em;
