@@ -1,4 +1,9 @@
 <!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
 		<title>Eric Ashmore</title>
@@ -12,17 +17,13 @@
 	<body>
 
 		<!-- Nav -->
-			<nav id="nav" class="container">
-				<div class="row">
-					<ul class="col-xs-">
-						<li class="nav-name"><a href="#top">Eric Ashmore</a></li>
-					</ul>
-				<ul class="nav-menu">
-					<li><a href="#top">About</a></li>
-					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="#contact">Contact</a></li>
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Top</a></li>
+					<li><a href="#work">About Me</a></li>
+					<li><a href="#portfolio">My Portfolio</a></li>
+					<li><a href="#contact">Contact Me</a></li>
 				</ul>
-				</div>
 			</nav>
 
 		<!-- Home -->
@@ -36,13 +37,37 @@
 							<header>
 								<h1>Hi. I'm <strong>Eric Ashmore</strong>.</h1>
 							</header>
-							<p>
-								I am a web developer for hire with experience in Ruby on Rails, Javascript, Backbone.js, SQL, HTML5/CSS and more.
-								<br><br>
-								<a href="assets/EricAshmoreResume.pdf">My Resume</a>
-							</p>
+							<p>I am a web developer for hire with experience in Ruby on Rails, Javascript, Backbone.js, Ember.js, SQL, HTML5/CSS and more.</p>
+							<a href="#work" class="button big scrolly">Why not learn a bit about me?</a>
 						</div>
 					</div>
+				</article>
+			</div>
+
+		<!-- Work -->
+			<div class="wrapper style2">
+				<article id="work">
+					<header>
+						<h2>Here's A Bit About Me!</h2>
+					</header>
+					<div class="container">
+						<section class="box style1">
+							<span class="icon featured fa-child"></span>
+							<h3>How I Got Here</h3>
+							<p>After graduating from the University of California, San Diego with a degree in Environmental Science, I landed a job at a chemistry lab, analyzing various food products for compliance with FDA standards. It was soon after, that I realized I was heading down a career path I did not wish to be on. Repetitive lab tests and mundane lab reports were all what greeted me here. The only highlight of my work was when a test failed. It became like a logic puzzle; what was wrong with the product and why? This one bright light quickly faded however as these tests became more like clockwork; less of a puzzle and more of an exercise in memory. It was around this time I began looking for a way out.
+							I remembered back to a intro to CS course I took in college. I remembered how much I had enjoyed writing and manipulating code and how, frankly, it all just made sense. So I decided to give programming another go, this time starting with JavaScript.</p>
+						</section>
+						<section class="box style1">
+							<span class="icon featured fa fa-rocket"></span>
+							<h3>Where I'm Going</h3>
+							<p>Now, several months later, I have completed App Academy, an immersive, full stack, web development course with an emphasis on coding style and best practices and an acceptance rate of less than 5%, and have built multiple web apps on Rails, Backbone.js and Ember.js.
+							I want to find a team that can facilitate my desires to grow as a programmer and write better code. A team that expects nothing less from its engineers and will provide them with the opportunities needed to improve themselves. I want to be taken out of my comfort zone, either through a deepening of my understanding of my current skills and knowledge base, or through new languages and frameworks, which I can generally pick up rather quickly. But what I want most of all, is to find a team that is passionate about their product and their vision, so that I may be impassioned along with them.</p>
+						</section>
+					</div>
+					<footer>
+						<p>Wow, that was fun! I feel like we have really got to know each other over those last couple paragraphs. So...</p>
+						<a href="#portfolio" class="button big scrolly">Why not look at some stuff I made?</a>
+					</footer>
 				</article>
 			</div>
 
@@ -50,7 +75,7 @@
 			<div class="wrapper style3">
 				<article id="portfolio">
 					<header>
-						<h2>Portfolio</h2>
+						<h2>Here’s some stuff I made!</h2>
 					</header>
 					<div class="container">
 						<div class="row">
@@ -58,21 +83,23 @@
 								<article class="box style2">
 									<a href="http://www.thegoodgames.xyz/" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
 									<h3><a href="http://www.thegoodgames.xyz/">Goodgames</a></h3>
+									<a href="http://www.thegoodgames.xyz/">Live Site</a>
+									<a href="https://github.com/eashmore/goodgames">GitHub</a>
+
 									<p>A games cataloging website built on Ruby on Rails and Backbone.js
 										<br>
-										<a href="http://www.thegoodgames.xyz/">Live Site</a>
-										<a href="https://github.com/eashmore/goodgames">GitHub</a>
 									</p>
 								</article>
 							</div>
 							<div class="4u 12u(mobile)">
 								<article class="box style2">
-									<a href="http://eashmore.github.io/js-runner/" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-									<h3><a href="http://eashmore.github.io/js-runner/">Super Lazer Girl GO!!!</a></h3>
+									<a href="http://www.ericashmore.co/js-runner/" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+									<h3><a href="http://www.ericashmore.co/js-runner/">Super Lazer Girl GO!!!</a></h3>
+									<a href="http://www.ericashmore.co/js-runner/">Live Site</a>
+									<a href="https://github.com/eashmore/js-runner">GitHub</a>
+
 									<p>A runner style game built on HTML5 and Phaser.js
 										<br>
-										<a href="http://eashmore.github.io/js-runner/">Live Site</a>
-										<a href="https://github.com/eashmore/js-runner">GitHub</a>
 									</p>
 								</article>
 							</div>
@@ -80,15 +107,20 @@
 								<article class="box style2">
 									<a href="http://www.csgotime.co/" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
 									<h3><a href="http://eashmore.github.io/react_minesweeper/">CS:GO Time</a></h3>
+									<a href="http://www.csgotime.co/">Live Site</a>
+									<a href="https://github.com/eashmore/csgo-time">GitHub</a>
+
 									<p>Site for betting on Counter Strike: Global Offensive matches. Built on Rails and Ember.
 										<br>
-										<a href="http://www.csgotime.co/">Live Site</a>
-										<a href="https://github.com/eashmore/csgo-time">GitHub</a>
 									</p>
 								</article>
 							</div>
 						</div>
 					</div>
+					<footer>
+						<p>I know, I know. You're impressed, right? Tell me you're not impressed. Well, it looks like we're almost done here. Only one thing left to do...</p>
+						<a href="#contact" class="button big scrolly">Why not get in touch with me?</a>
+					</footer>
 				</article>
 			</div>
 
@@ -96,22 +128,28 @@
 			<div class="wrapper style4">
 				<article id="contact" class="container 75%">
 					<header>
-						<h2>Contact Me</h2>
+						<h2>Get In Touch With ME!</h2>
+						<p>I can make stuff for YOU!</p>
 					</header>
-					<p>
-						EMAIL
-						<br>
-						<a href="mailto:edashmore@gmail.com">edashmore@gmail.com</a>
-					</p>
-					<p>
-						PHONE
-						<br>
-						<a href="javascript:void(0)">714-514-1672</a>
-					</p>
+					<div>
+						<div class="row">
+							<div class="12u">
+								<p>
+									EMAIL
+									<br>
+									<a href="mailto:edashmore@gmail.com">edashmore@gmail.com</a>
+								</p>
+								<p>
+									PHONE
+									<br>
+									<a href="javascript:void(0)">714-514-1672</a>
+								</p>
+							</div>
+						</div>
 						<div class="row">
 							<div class="12u">
 								<hr />
-								<h3>Find me on ...</h3>
+								<h3>Or find me on...</h3>
 								<ul class="social">
 									<li><a href="https://www.linkedin.com/pub/eric-ashmore/b7/4b1/6a0" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
 									<li><a href="https://github.com/eashmore" class="icon fa-github"><span class="label">Github</span></a></li>
@@ -130,12 +168,12 @@
 								<hr />
 							</div>
 						</div>
-						<footer>
-							<ul id="copyright">
-								<li>&copy; Eric Ashmore</li>
-							</ul>
-						</footer>
 					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Eric Ashmore</li>
+						</ul>
+					</footer>
 				</article>
 			</div>
 
